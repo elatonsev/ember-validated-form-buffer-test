@@ -1,0 +1,18 @@
+{{!--input value=model.username}}
+{{v-get model 'username' 'message'}}
+{{model.username}}
+
+<br>
+
+{{input value=model.email}}
+{{v-get model 'email' 'message'}}
+{{model.email--}}
+
+<br>
+<br>
+
+{{input type="checkbox" checked=formValues.isRequired}}
+
+username {{input value=formValues.username}}
+{{v-get formValues 'username' 'message'}}
+{{formValues.username}}
